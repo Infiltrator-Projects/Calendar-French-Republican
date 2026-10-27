@@ -2,7 +2,7 @@
 
 **InfiltratorOS calendar resource** · **Stable ID:** `french-republican` · **Module:** `French Republican Calendar.so`
 
-French Republican epoch JDN 2375840, 22 September 1792 (Year I); Romme-style arithmetic continuation outside its historical use.
+French Republican epoch JDN 2375840, 22 September 1792 (Year I); shifted-Gregorian arithmetic continuation (leap test on year + 1; not Romme proper) outside its historical use.
 
 **Historical scope/accuracy:** Contemporary Year I–XIV dates have reference anchors; later arithmetic continuation was not historically adopted.
 
@@ -33,3 +33,7 @@ See [source provenance and build details](SOURCE.md), [source manifest](SOURCE-M
 - [Calendar chronology and clock models](https://github.com/Infiltrator-Projects/Calendar/blob/main/docs/MODELS.md)
 - [Historical fidelity audit](https://github.com/Infiltrator-Projects/Libraries/blob/main/docs/TEMPORAL_HISTORICAL_FIDELITY.md)
 - [Temporal discovery and executable provider ABI](https://github.com/Infiltrator-Projects/Libraries/blob/main/docs/TEMPORAL_PROVIDERS.md)
+
+## Independent forensic audit
+
+See [audit findings](docs/FORENSIC-AUDIT.md) for corrections, numerical-model limits and unresolved authority disagreements. A successful build is not a historical-accuracy certificate.

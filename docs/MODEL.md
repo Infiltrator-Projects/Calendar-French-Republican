@@ -9,7 +9,7 @@
 
 ## Maintained model
 
-French Republican epoch JDN 2375840, 22 September 1792 (Year I); Romme-style arithmetic continuation outside its historical use.
+French Republican epoch JDN 2375840, 22 September 1792 (Year I); shifted-Gregorian arithmetic continuation (leap test on year + 1; not Romme proper) outside its historical use.
 
 ## Historical scope / fidelity limitation
 
@@ -29,7 +29,7 @@ Missing providers are unavailable; consumers must not substitute a different pro
 
 ## Provenance
 
-The model and boundary above are documented from the current resource build map, Calendar model matrix and Common historical-fidelity audit. They have not yet been independently requalified in this repository.
+The model and boundary above are documented from the current resource build map, Calendar model matrix and Common historical-fidelity audit. Independent qualification and unresolved limitations are now recorded in [the forensic audit](FORENSIC-AUDIT.md).
 
 - [Libraries/Common temporal sources](https://github.com/Infiltrator-Projects/Libraries/tree/main/resources/temporal)
 - [Current canonical build catalogue](https://github.com/Infiltrator-Projects/Libraries/blob/main/resources/temporal/Makefile)

@@ -4,7 +4,7 @@
 /*
  * Reform-calendar conversion.
  *
- * The resource uses the arithmetic (Romme-style) continuation of the French
+ * The resource uses the maintained shifted-Gregorian arithmetic continuation of the French
  * Republican calendar: the historical epoch is fixed at JDN 2375840 and leap
  * years follow the shifted Gregorian 400-year rule.  That choice is deliberate
  * because several incompatible post-historical proposals exist; callers must
@@ -35,7 +35,7 @@ gboolean
 calendar_french_is_leap(gint64 year)
 {
     /*
-     * This resource uses the Romme-style arithmetic continuation: apply the
+     * This resource uses a shifted-Gregorian arithmetic continuation: apply the
      * Gregorian 4/100/400 rule to the following Republican year number. This
      * choice is deterministic for proleptic dates where historical practice
      * does not define a single answer.
