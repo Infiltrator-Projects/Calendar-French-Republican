@@ -1,0 +1,61 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Calendar ja translation.
+# Copyright (C) 1993-2026 Shannon Smith
+# This file is distributed under the same license as the Calendar package.
+# Initial translation prepared for Calendar, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Calendar 1.0.82\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-18 17:35+0800\n"
+"PO-Revision-Date: 2026-09-01 03:05+0000\n"
+"Last-Translator: Calendar contributors\n"
+"Language-Team: ja\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Vendmiaire"
+msgstr ""
+
+msgid "Brumaire"
+msgstr "Brumaire"
+
+msgid "Frimaire"
+msgstr "Frimaire"
+
+msgid "Nivse"
+msgstr ""
+
+msgid "Pluvise"
+msgstr ""
+
+msgid "Ventse"
+msgstr ""
+
+msgid "Germinal"
+msgstr "Germinal"
+
+msgid "Floral"
+msgstr ""
+
+msgid "Prairial"
+msgstr "Prairial"
+
+msgid "Messidor"
+msgstr "Messidor"
+
+msgid "Thermidor"
+msgstr "Thermidor"
+
+msgid "Fructidor"
+msgstr "Fructidor"
+
+msgid "Sans-culottides"
+msgstr "Sans-culottides"
+
+#, c-format
+msgid "%d %s, An %s"
+msgstr "%d %s, An %s"

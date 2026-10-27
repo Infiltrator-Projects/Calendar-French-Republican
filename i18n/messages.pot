@@ -1,0 +1,44 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Extracted only from this provider's private source.
+msgid "Vendmiaire"
+msgstr ""
+
+msgid "Brumaire"
+msgstr ""
+
+msgid "Frimaire"
+msgstr ""
+
+msgid "Nivse"
+msgstr ""
+
+msgid "Pluvise"
+msgstr ""
+
+msgid "Ventse"
+msgstr ""
+
+msgid "Germinal"
+msgstr ""
+
+msgid "Floral"
+msgstr ""
+
+msgid "Prairial"
+msgstr ""
+
+msgid "Messidor"
+msgstr ""
+
+msgid "Thermidor"
+msgstr ""
+
+msgid "Fructidor"
+msgstr ""
+
+msgid "Sans-culottides"
+msgstr ""
+
+#, c-format
+msgid "%d %s, An %s"
+msgstr ""
