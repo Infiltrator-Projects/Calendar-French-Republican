@@ -1,0 +1,78 @@
+{
+  "title": "French Republican Calendar",
+  "intro": "A revolutionary French calendar that began at the autumn equinox in 1792, with differently named months and ten-day groupings called decades.",
+  "summary": "Twelve months of thirty days, plus five or six complementary days. Year I starts on 22 September 1792.",
+  "origin": "Adopted during the French Revolution, the Republican Calendar was officially used from 1793 until 1805. Its epoch marks the founding of the First Republic.",
+  "ring_label": "12",
+  "ring_caption": "MONTHS",
+  "diagram_title": "THE REVOLUTIONARY YEAR",
+  "structure": "Each of twelve months has thirty days organised into three ten-day decades. Five or six complementary days finish the year.",
+  "diagram_caption": "12 × 30 DAYS + COMPLEMENTARY DAYS",
+  "sections": [
+    {
+      "name": "Vendémiaire",
+      "days": "30",
+      "special": true
+    },
+    {
+      "name": "Brumaire",
+      "days": "30",
+      "special": false
+    },
+    {
+      "name": "Frimaire",
+      "days": "30",
+      "special": false
+    },
+    {
+      "name": "Nivôse",
+      "days": "30",
+      "special": false
+    },
+    {
+      "name": "Pluviôse",
+      "days": "30",
+      "special": false
+    },
+    {
+      "name": "Ventôse",
+      "days": "30",
+      "special": false
+    },
+    {
+      "name": "Germinal",
+      "days": "30",
+      "special": false
+    },
+    {
+      "name": "Floréal",
+      "days": "30",
+      "special": false
+    },
+    {
+      "name": "Prairial",
+      "days": "30",
+      "special": false
+    },
+    {
+      "name": "Messidor",
+      "days": "30",
+      "special": false
+    },
+    {
+      "name": "Thermidor",
+      "days": "30",
+      "special": false
+    },
+    {
+      "name": "Fructidor",
+      "days": "30",
+      "special": false
+    }
+  ],
+  "pattern_note": "Extra days fall outside the twelve regular months. The software extends the dates by an explicit arithmetic rule beyond the years when the calendar was used.",
+  "history": "The Revolutionary government renamed months after seasonal and agricultural themes and replaced the familiar seven-day week with a ten-day rhythm within each month.",
+  "example": "22 September 1792 in the historical Gregorian-to-Julian context is the epoch for 1 Vendémiaire, Year I, in this calendar model.",
+  "limits": "After its historical use, this implementation follows a shifted-Gregorian leap convention, not the full Romme proposal or an assertion that people kept using it. The software's arithmetic continuation must not be confused with historical dates.",
+  "source": "https://github.com/Infiltrator-Projects/Calendar-French-Republican"
+}

@@ -47,3 +47,7 @@ Run the downloaded `.run --profile aggressive` as an ordinary user. It provision
 Each package owns only this provider and its passive documentation. Its `Replaces` declaration transfers this module from `infiltrator-calendar-resources` on existing machines; other modules and Common source remain intact. Native package versions use `+native1` so a same-version generic package does not replace a local optimized build. See [packaging details](docs/PACKAGING.md).
 
 Translations use the provider-owned gettext domain `infiltrator-calendar-french-republican`. The package ships only its own messages in `/usr/share/locale/<language>/LC_MESSAGES/infiltrator-calendar-french-republican.mo`; Common’s combined translation package is not required. The exact compiled catalogues are checked through the provider ABI before packaging.
+
+## Illustrated user guide
+
+The native package installs only `French Republican Calendar.so` and `French Republican Calendar.pdf`. Its translations are compiled into the shared object, and native build evidence is in Debian control metadata.
