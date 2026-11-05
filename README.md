@@ -50,4 +50,4 @@ Translations use the provider-owned gettext domain `infiltrator-calendar-french-
 
 ## Illustrated user guide
 
-The native package installs only `French Republican Calendar.so` and `French Republican Calendar.pdf`. Its translations are compiled into the shared object, and native build evidence is in Debian control metadata.
+The native package installs only `French Republican Calendar.so` and `Calendar-French-Republican.pdf`. Its translations are compiled into the shared object, and native build evidence is in Debian control metadata.
