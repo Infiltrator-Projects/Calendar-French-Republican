@@ -68,9 +68,10 @@
   "example": "After Fructidor 30 come the complementary days; the next year begins at Vendemiaire 1.",
   "history": "Adopted during the Revolution in 1793, the calendar was officially used through the end of 1805. Month names reflect seasonal and agricultural themes.",
   "model": "The provider anchors contemporary Years I–XIV to the documented historical dates and uses a shifted Gregorian leap test on Republican year + 1 for the arithmetic continuation beyond historical use.",
-  "limits": "The continuation is not the full Romme proposal, nor evidence of continued historical use. It does not make the independent French decimal clock part of this date calendar.",
+  "limits": "The continuation is not the full Romme proposal, nor evidence of continued historical use. It does not make the independent French decimal clock part of this date calendar. The October 2026 audit recorded 9,024 differing sampled dates in the comparison with the Romme continuation after the historical era; this provider deliberately uses a different leap rule.",
   "sources": [
     "https://github.com/Infiltrator-Projects/Calendar-French-Republican",
-    "Model evidence: https://github.com/Infiltrator-Projects/Calendar-French-Republican/blob/main/docs/MODEL.md"
+    "Model evidence: https://github.com/Infiltrator-Projects/Calendar-French-Republican/blob/main/docs/MODEL.md",
+    "Historical qualification: https://github.com/Infiltrator-Projects/Calendar-French-Republican/blob/main/docs/FORENSIC-AUDIT.md"
   ]
 }
