@@ -1,13 +1,8 @@
 {
   "title": "French Republican Calendar",
-  "intro": "A revolutionary French calendar that began at the autumn equinox in 1792, with differently named months and ten-day groupings called decades.",
-  "summary": "Twelve months of thirty days, plus five or six complementary days. Year I starts on 22 September 1792.",
-  "origin": "Adopted during the French Revolution, the Republican Calendar was officially used from 1793 until 1805. Its epoch marks the founding of the First Republic.",
-  "ring_label": "12",
-  "ring_caption": "MONTHS",
-  "diagram_title": "THE REVOLUTIONARY YEAR",
-  "structure": "Each of twelve months has thirty days organised into three ten-day decades. Five or six complementary days finish the year.",
-  "diagram_caption": "12 × 30 DAYS + COMPLEMENTARY DAYS",
+  "intro": "The French Republican calendar reorganises civil dates around the revolutionary year and a ten-day rhythm.",
+  "epoch": "1 Vendemiaire, Year I corresponds to 22 September 1792 Gregorian (JDN 2375840), the founding of the First Republic.",
+  "structure": "Twelve 30-day months each contain three ten-day decades. Five complementary days, or six in a leap year, complete the year outside the regular months.",
   "sections": [
     {
       "name": "Vendémiaire",
@@ -70,9 +65,12 @@
       "special": false
     }
   ],
-  "pattern_note": "Extra days fall outside the twelve regular months. The software extends the dates by an explicit arithmetic rule beyond the years when the calendar was used.",
-  "history": "The Revolutionary government renamed months after seasonal and agricultural themes and replaced the familiar seven-day week with a ten-day rhythm within each month.",
-  "example": "22 September 1792 in the historical Gregorian-to-Julian context is the epoch for 1 Vendémiaire, Year I, in this calendar model.",
-  "limits": "After its historical use, this implementation follows a shifted-Gregorian leap convention, not the full Romme proposal or an assertion that people kept using it. The software's arithmetic continuation must not be confused with historical dates.",
-  "source": "https://github.com/Infiltrator-Projects/Calendar-French-Republican"
+  "example": "After Fructidor 30 come the complementary days; the next year begins at Vendemiaire 1.",
+  "history": "Adopted during the Revolution in 1793, the calendar was officially used through the end of 1805. Month names reflect seasonal and agricultural themes.",
+  "model": "The provider anchors contemporary Years I–XIV to the documented historical dates and uses a shifted Gregorian leap test on Republican year + 1 for the arithmetic continuation beyond historical use.",
+  "limits": "The continuation is not the full Romme proposal, nor evidence of continued historical use. It does not make the independent French decimal clock part of this date calendar.",
+  "sources": [
+    "https://github.com/Infiltrator-Projects/Calendar-French-Republican",
+    "Model evidence: https://github.com/Infiltrator-Projects/Calendar-French-Republican/blob/main/docs/MODEL.md"
+  ]
 }
